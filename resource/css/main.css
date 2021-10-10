@@ -52,7 +52,7 @@ body {
 }
 
 #logoHolder img {
-    height: 100%;
+    height: 50%;
     object-fit: cover;
 }
 
