@@ -5,6 +5,11 @@
 @media (max-width: 768px)  {
     html { font-size: 54.6875%; }
     .linkDesc {display: none;}
+    #logoHolder { height: 12vh !important; }
+    #slider { height: 55vh !important; }
+    .sliderItem { height: 55vh !important; }
+    #linkHolder { height: 20vh !important; }
+
 }
 
 html {
@@ -42,7 +47,6 @@ body {
 }
 
 .section {
-    height: 100vh;
     width: 100vw;
     padding: 0;
     margin: 0;
@@ -101,8 +105,8 @@ body {
 }
 
 .links {
-    margin: 2rem;
-    height: 6rem;
+    margin: 2vh;
+    height: 6vh;
     border-radius: 1rem;
     border-left: 0;
     display: flex;
@@ -111,9 +115,9 @@ body {
 }
 
 .links img {
-    height: 6rem;
-    width: 6rem;
-    object-fit: cover;
+    height: 6vh;
+    width: 6vh;
+    object-fit: contain;
 }
 
 .linkDesc {
