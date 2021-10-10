@@ -19,6 +19,12 @@ html {
 
     min-width: 375px;
     touch-action: pan-y;
+
+    -ms-user-select: none; 
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
 }
 
 a { 
@@ -52,7 +58,7 @@ body {
 }
 
 #logoHolder img {
-    height: 50%;
+    height: 7vh;
     object-fit: cover;
 }
 
@@ -87,7 +93,7 @@ body {
 }
 
 #linkHolder {
-    height: 25vh;
+    height: 20vh;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -96,7 +102,7 @@ body {
 
 .links {
     margin: 2rem;
-    height: 6rem;
+    height: 8rem;
     border-radius: 1rem;
     border-left: 0;
     display: flex;
@@ -105,8 +111,8 @@ body {
 }
 
 .links img {
-    height: 6rem;
-    width: 6rem;
+    height: 8rem;
+    width: 8rem;
     object-fit: cover;
 }
 
