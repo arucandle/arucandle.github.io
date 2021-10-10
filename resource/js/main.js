@@ -21,9 +21,8 @@ setInterval(slide, 3000);
 
 
 
-window.onload = function(){
+function aTagChange(){
     if(navigator.userAgent.match(/inapp|KAKAOTALK|Instagram|kakaostory|band|twitter\/[^1]/i)){ 
-        document.body.innerHTML = ''; 
         if(navigator.userAgent.match(/iPhone|iPad/i)){ 
             // ios
         }else { 
@@ -35,3 +34,8 @@ window.onload = function(){
         }
     }
 }
+aTagChange();
+
+document.getElementById("test").innerHTML = navigator.userAgent;
+
+
