@@ -5,10 +5,10 @@
 @media (max-width: 768px)  {
     html { font-size: 54.6875%; }
     .linkDesc {display: none;}
-    #logoHolder { height: 10vh !important; }
+    #logoHolder { height: 13vh !important; }
     #slider { height: 50vh !important; }
     .sliderItem { height: 50vh !important; }
-    #linkHolder { height: 20vh !important; }
+    #linkHolder { height: 15vh !important; }
 
 }
 
@@ -106,7 +106,7 @@ body {
 
 .links {
     margin: 2vh;
-    height: 6vh;
+    height: 6.5vh;
     border-radius: 1rem;
     border-left: 0;
     display: flex;
@@ -115,8 +115,8 @@ body {
 }
 
 .links img {
-    height: 6vh;
-    width: 6vh;
+    height: 6.5vh;
+    width: 6.5vh;
     object-fit: contain;
 }
 
