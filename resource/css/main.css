@@ -102,7 +102,7 @@ body {
 
 .links {
     margin: 2rem;
-    height: 8rem;
+    height: 6rem;
     border-radius: 1rem;
     border-left: 0;
     display: flex;
@@ -111,8 +111,8 @@ body {
 }
 
 .links img {
-    height: 8rem;
-    width: 8rem;
+    height: 6rem;
+    width: 6rem;
     object-fit: cover;
 }
 
