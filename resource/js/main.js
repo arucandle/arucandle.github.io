@@ -18,3 +18,20 @@ function slide() {
 }
 slide();
 setInterval(slide, 3000);
+
+
+
+window.onload = function(){
+    if(navigator.userAgent.match(/inapp|KAKAOTALK|Instagram|kakaostory|band|twitter\/[^1]/i)){ 
+        document.body.innerHTML = ''; 
+        if(navigator.userAgent.match(/iPhone|iPad/i)){ 
+            // ios
+        }else { 
+            // 안드로이드
+            const aTags = document.getElementsByTagName("a");
+            for (let i = 0; i < aTags.length; i++) {
+                aTags[i].href = 'intent://'+aTags[i].href.replace(/https?:\/\//i,'')+'#Intent;scheme=http;package=com.android.chrome;end';
+            }
+        }
+    }
+}
