@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1">
+    <title>Aru Candle</title>
+    <link rel="stylesheet" href="resource/css/main.css">
+</head>
+<body>
+    <div class="section">
+        <div id="logoHolder">
+            <img src="resource/img/logo.jpeg" alt="">
+        </div>
+        <div id="slider">
+            <div class="sliderItem"><img src="resource/img/1.png" alt=""></div>
+            <div class="sliderItem"><img src="resource/img/2.png" alt=""></div>
+            <div class="sliderItem"><img src="resource/img/1.png" alt=""></div>
+            <div class="sliderItem"><img src="resource/img/2.png" alt=""></div>
+        </div>
+        <div id="linkHolder">
+            <a href="https://www.instagram.com/aru_c_d/">
+                <div class="links">
+                    <img src="resource/img/insta.svg" alt="">
+                    <div class="linkDesc">인스타 바로가기</div>
+                </div>
+            </a>
+            <a href="https://m.blog.naver.com/jsje_1503">
+                <div class="links">
+                    <img src="resource/img/blog.svg" alt="">
+                    <div class="linkDesc">블로그 바로가기</div>
+                </div>
+            </a>
+            <a href="https://smartstore.naver.com/arucandle">
+                <div class="links">
+                    <img src="resource/img/shop.svg" alt="">
+                    <div class="linkDesc">스토어 바로가기</div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <script>
+        const SHOWING_CLASS = "showing";
+        const firstSlide = document.querySelector(".sliderItem:first-child");
+        function slide() {
+            const currentSlide = document.querySelector(`.${SHOWING_CLASS}`);
+            if (currentSlide) {
+                currentSlide.classList.remove("showing");
+                const nextSlide = currentSlide.nextElementSibling;
+                if (nextSlide) {
+                    nextSlide.classList.add("showing");
+                } else {
+                    firstSlide.classList.add("showing");
+                }
+            } else {
+                firstSlide.classList.add("showing");
+            }
+        }
+        slide();
+        setInterval(slide, 3000);
+
+
+    </script>
+
+
+</body>
+</html>
