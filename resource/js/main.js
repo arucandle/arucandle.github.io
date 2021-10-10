@@ -25,7 +25,7 @@ function aTagChange(){
     if(navigator.userAgent.match(/inapp|KAKAOTALK|Instagram|kakaostory|band|twitter\/[^1]/i)){ 
         if(navigator.userAgent.match(/iPhone|iPad/i)){ 
             // ios
-        }else { 
+        }else if(navigator.userAgent.match(/Android/i)) { 
             // 안드로이드
             const aTags = document.getElementsByTagName("a");
             for (let i = 0; i < aTags.length; i++) {
@@ -36,6 +36,6 @@ function aTagChange(){
 }
 aTagChange();
 
-document.getElementById("test").innerHTML = navigator.userAgent;
+//document.getElementById("test").innerHTML = navigator.userAgent;
 
 
