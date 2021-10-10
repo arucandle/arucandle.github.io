@@ -3,7 +3,10 @@
 
 }
 @media (max-width: 768px)  {
-    html { font-size: 54.6875%; }
+    html { 
+        font-size: 54.6875%; 
+        overflow: hidden;
+    }
     .linkDesc {display: none;}
     #logoHolder { height: 13vh !important; }
     #slider { height: 50vh !important; }
@@ -30,7 +33,7 @@ html {
     -khtml-user-select: none;
     -webkit-user-select: none;
     user-select: none;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 a { 
@@ -57,24 +60,27 @@ body {
 #logoHolder {
     width: 100vw;
     height: 15vh;
+    min-height: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 #logoHolder img {
-    height: 7vh;
+    height: 6rem;
     object-fit: cover;
 }
 
 #slider {
     width: 100vw;
     height: 60vh;
+    min-height: 400px;
 }
 
 .sliderItem {
     width: 100vw;
     height: 60vh;
+    min-height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,7 +104,8 @@ body {
 }
 
 #linkHolder {
-    height: 20vh;
+    height: 25vh;
+    min-height: 10rem;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
@@ -106,21 +113,20 @@ body {
 }
 
 .links {
-    margin: 2vh;
-    height: 6.5vh;
+    margin: 2rem;
+    height: 6rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .links img {
-    height: 6.5vh;
-    width: 6.5vh;
+    height: 6rem;
+    width: 6rem;
     object-fit: contain;
 }
 
 .linkDesc {
-    margin-left: 2vh;
-    /* width: 12rem; */
-    font-size: 2vh;
+    margin-left: 2rem;
+    font-size: var(--font-lg);
 }
