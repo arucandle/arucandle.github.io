@@ -5,9 +5,9 @@
 @media (max-width: 768px)  {
     html { font-size: 54.6875%; }
     .linkDesc {display: none;}
-    #logoHolder { height: 12vh !important; }
-    #slider { height: 55vh !important; }
-    .sliderItem { height: 55vh !important; }
+    #logoHolder { height: 10vh !important; }
+    #slider { height: 50vh !important; }
+    .sliderItem { height: 50vh !important; }
     #linkHolder { height: 20vh !important; }
 
 }
