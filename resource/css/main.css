@@ -5,7 +5,6 @@
 @media (max-width: 768px)  {
     html { 
         font-size: 54.6875%; 
-        overflow: hidden;
     }
     .linkDesc {display: none;}
     #logoHolder { height: 13vh !important; }
