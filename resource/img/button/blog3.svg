@@ -1,1 +1,20 @@
-<svg id="레이어_1" data-name="레이어 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 423.04 420"><defs><style>.cls-1,.cls-3{fill:#fedd94;}.cls-2{fill:#fff;}.cls-3{font-size:150px;font-family:Noteworthy-Bold, Noteworthy;font-weight:700;}.cls-4{letter-spacing:0.02em;}</style></defs><path class="cls-1" d="M391.34,37.23H114.73A71.7,71.7,0,0,0,43,108.93V385.54a71.69,71.69,0,0,0,71.69,71.69H391.34A71.69,71.69,0,0,0,463,385.54V108.93A71.7,71.7,0,0,0,391.34,37.23Z" transform="translate(-40 -37.23)"/><rect class="cls-2" x="43" y="65.99" width="340" height="236" rx="51.86"/><path class="cls-2" d="M273.08,395.33l54.77-56.06a4.77,4.77,0,0,0-2-7.89l-67.75-21.24a4.78,4.78,0,0,0-6.14,5.35l13,77.29A4.77,4.77,0,0,0,273.08,395.33Z" transform="translate(-40 -37.23)"/><text class="cls-3" transform="translate(77.91 229.8)"><tspan class="cls-4">b</tspan><tspan x="79.87" y="0">log</tspan></text></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 423 420" style="enable-background:new 0 0 423 420;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#A5F2A5;}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'Noteworthy-Bold';}
+	.st3{font-size:150px;}
+	.st4{letter-spacing:3;}
+</style>
+<path class="st0" d="M350.8,0H72.2C32.4,0,0,32.1,0,71.7c0,0,0,0,0,0v276.6C0,387.9,32.3,420,72.2,420h278.6
+	c39.9,0,72.2-32.1,72.2-71.7V71.7C423,32.1,390.7,0,350.8,0z"/>
+<path class="st1" d="M94.9,66h236.3c28.6,0,51.9,23.2,51.9,51.9v132.3c0,28.6-23.2,51.9-51.9,51.9H94.9C66.2,302,43,278.8,43,250.1
+	V117.8C43,89.2,66.2,66,94.9,66z"/>
+<path class="st1" d="M233.1,358.1l54.8-56.1c1.8-1.9,1.8-4.9-0.1-6.7c-0.5-0.5-1.2-0.9-1.9-1.1l-67.8-21.2c-2.5-0.8-5.2,0.6-6,3.1
+	c-0.2,0.7-0.3,1.5-0.2,2.2l13,77.3c0.4,2.6,2.9,4.4,5.5,3.9C231.4,359.3,232.4,358.8,233.1,358.1z"/>
+<text transform="matrix(1 0 0 1 79.91 229.8)" class="st0 st2 st3 st4">b</text>
+<text transform="matrix(1 0 0 1 159.78 229.8)" class="st0 st2 st3">log</text>
+</svg>
